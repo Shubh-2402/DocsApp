@@ -1,7 +1,7 @@
 import {connect} from "getstream"
 import bcrypt from "bcrypt"
 import crypto from "crypto"
-import StreamChat from "stream-chat"
+import {StreamChat} from "stream-chat"
 import {} from "dotenv/config"
 
 const api_key = process.env.STREAM_API_KEY
